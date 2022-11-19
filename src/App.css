@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: regularFont;
-  src: url("static/quicksand-variablefont_wght-webfont.woff");
+  src: url("static/Quicksand-Regular.woff");
 }
 
 @font-face {
@@ -19,6 +19,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-weight: 100;
 }
 
 html {
@@ -26,12 +27,43 @@ html {
 }
 
 body {
-  font-family: lightFont;
-  font-weight: 100;
-  font-style: normal;
+  font-family: regularFont;
   font-size: 65px;
 }
  
 
 /* Landing */
+.landing-container {
+  display:flex;
+}
 
+.landing-container-left {
+  width: 50%;
+  
+}
+
+
+
+.landing-container-right {
+  width: 50%;
+  height: 800px;
+  text-align: center;
+}
+
+.landing-title h1 {
+  text-align: inherit;
+  font-family: lightFont;
+  font-weight: 50;
+  margin: 200px 250px 0 0;
+}
+
+.landing-info {
+  font-size: 40px;
+  margin: 30px 200px 0 0;
+  
+}
+
+.landing-info h3 {
+  font-family: regularFont;
+  font-weight: 400;
+}
