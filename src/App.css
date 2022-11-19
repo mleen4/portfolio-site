@@ -46,7 +46,7 @@ body {
 
 .landing-container-right {
   width: 50%;
-  height: 800px;
+  height: 1000px;
   text-align: center;
 }
 
@@ -66,4 +66,60 @@ body {
 .landing-info h3 {
   font-family: regularFont;
   font-weight: 400;
+}
+
+/* Intro */
+
+.intro-container {
+  display: flex;
+  height: 700px;
+}
+
+.intro-container h3 {
+  font-size: 50px;
+} 
+
+.intro-details {
+  font-size: 30px;
+  margin: 50px 0 0 50px;
+}
+
+.intro-lists {
+  font-size: 30px;
+  margin: 50px 0 0 50px;
+}
+
+
+.intro-lists li {
+  margin-top: 14px;
+  list-style: none;
+}
+
+.intro-lists p {
+  margin-top: 40px;
+  font-weight: bold;
+}
+
+.intro-container-left {
+  width: 50%;
+  text-align: center;
+}
+
+.intro-container-right {
+  width: 50%;
+  text-align: center;
+}
+
+/* Knowledge */
+
+.knowledge-container {
+  display: flex;
+  height: 800px;
+}
+
+.knowledge-table {
+  margin: auto;
+  background-color: blueviolet;
+  width: 70%;
+  height: 90%;
 }
