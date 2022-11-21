@@ -1,14 +1,28 @@
 import React from "react";
+import knowledgeData from "../knowledgeObjects";
+import KnowledgeItem from './KnowledgeItem';
 
 
-function Knowledge() {
-    return (
-        <div className="knowledge-container">
-            <div className="knowledge-table">
-                <div className="table-column"></div>
-            </div>
+function CreateKnowledgeComponent(knowledge, i)
+{
+    return <KnowledgeItem
+        key = {knowledge.key}
+        title = {knowledge.title}
+        description = {knowledge.description}
+        heading = {knowledge.heading}
+        tools = {knowledge.tools}
+        example = {knowledge.example}
+        icon = {knowledge.icon}
+        />
+}
+
+const Knowledge = () => {
+    return<div className="knowledge-container">
+        <div className="knowledge-table">
+            {knowledgeData.map(CreateKnowledgeComponent)}
         </div>
-    )
+    </div>
+    
 }
 
 export default Knowledge
