@@ -40,17 +40,17 @@ const KnowledgeItem = (props) =>
                 className="knowledge-see-more-anim"
             >
                 <div className="knowledge-see-more-github-button">
-                    
+                        <div className="knowledge-see-more-github-button-icon">
+                            <img src={require(`../static/images/githublogo3.png`)} alt="githublogo" />
+                        </div>
+                        <div className="knowledge-see-more-github-button-text">
+                            <p>Github Link</p>
+                        </div>          
                 </div>
             </motion.div>}
             </AnimatePresence>   
         </div>
-
-
-
-
     </div>
-    
 }
 
 export default KnowledgeItem

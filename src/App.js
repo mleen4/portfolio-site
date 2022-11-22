@@ -5,7 +5,7 @@ import Footer from './components/Footer';
 import Intro from './components/Intro';
 import Knowledge from './components/Knowledge';
 import Projects from './components/Projects';
-import Sidebar from './components/Sidebar';
+// import Sidebar from './components/Sidebar';
 import Testimonials from './components/Testimonials';
 import Landing from './components/Landing';
 
