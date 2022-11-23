@@ -151,9 +151,12 @@ button:active {
 .knowledge-table {
   display: flex;
   margin: auto;
-  background-color: blueviolet;
+  background-color: #0F0E0D;
   width: 70%;
   height: 90%;
+  border-radius: 14px;
+  border-color: #23c483;
+  border-style: solid;
 }
 
 .knowledge-column {
@@ -166,6 +169,7 @@ button:active {
   /* padding: 30px 20px; */
   text-align: center;
   position: relative;
+  
 }
 
 .knowledge-column h3{
