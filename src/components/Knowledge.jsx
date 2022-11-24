@@ -13,6 +13,7 @@ function CreateKnowledgeComponent(knowledge, i)
         tools = {knowledge.tools}
         example = {knowledge.example}
         icon = {knowledge.icon}
+        github = {knowledge.github}
         />
 }
 

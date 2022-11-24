@@ -43,9 +43,9 @@ const KnowledgeItem = (props) =>
                         <div className="knowledge-see-more-github-button-icon">
                             <img src={require(`../static/images/githublogo3.png`)} alt="githublogo" />
                         </div>
-                        <div className="knowledge-see-more-github-button-text">
+                        <a className="knowledge-see-more-github-button-text" href={props.github} target={"_blank"}>
                             <p>Github Link</p>
-                        </div>          
+                        </a>          
                 </div>
             </motion.div>}
             </AnimatePresence>   
