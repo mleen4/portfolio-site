@@ -267,7 +267,7 @@ button:active {
 
 .projects-container {
   display: flex;
-  height: 1000px;
+  height: 900px;
   align-items: center;
 }
 
@@ -339,6 +339,46 @@ button:active {
   /* padding: 5px; */
   text-align: center;
 }
+
+/* Testimonials */
+.testimonials-container {
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimonials-carousel {
+  width: 60%;
+  height: 80%;
+  background-color: #23c483;
+  display: flex;
+}
+
+.arrow-column {
+  height: 100%;
+  width: 10%;
+  background-color: #0F0E0D;
+}
+
+.testimonials-carousel-left-arrow-col {
+  margin: auto;
+}
+
+.testimonials-carousel-right-arrow-col {
+  margin: auto;
+}
+
+.testimonials-carousel-person-container {
+  height: 100%;
+  width: 60%;
+}
+
+
+
+
+
+
 
 
 
