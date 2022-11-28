@@ -7,6 +7,7 @@ function Landing() {
             <div className="landing-container-left">
                 <div className="landing-splash">
                     {/* Insert art here */}
+                    <div className="landing-art"></div>
                 </div>
             </div>
             <div className="landing-container-right">

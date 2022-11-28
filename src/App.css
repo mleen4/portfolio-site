@@ -69,7 +69,9 @@ button:active {
 
 .landing-container-left {
   width: 50%;
-  
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 
@@ -96,6 +98,12 @@ button:active {
 .landing-info h3 {
   font-family: regularFont;
   font-weight: 400;
+}
+
+.landing-art {
+  width: 700px;
+  height: 500px;
+  background-color: #23c483;
 }
 
 /* Intro */
@@ -342,7 +350,7 @@ button:active {
 
 /* Testimonials */
 .testimonials-container {
-  height: 800px;
+  height: 900px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -359,10 +367,14 @@ button:active {
   height: 100%;
   width: 10%;
   background-color: #0F0E0D;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .testimonials-carousel-left-arrow-col {
   margin: auto;
+  
 }
 
 .testimonials-carousel-right-arrow-col {
@@ -372,6 +384,49 @@ button:active {
 .testimonials-carousel-person-container {
   height: 100%;
   width: 60%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonial-person-image {
+  height: 18%;
+  width: 20%;
+  border-radius: 50%;
+  background-color: brown;
+}
+
+.testimonial-person-name {
+  height: 8%;
+  width: 80%;
+  background-color: blue;
+}
+
+.testimonial-person-role {
+  height: 8%;
+  width: 80%;
+  background-color: cornflowerblue;
+}
+
+.testimonial-person-quote {
+  height: 32%;
+  width: 80%;
+  background: #1d1d20;
+}
+
+.testimonial-person-socials {
+  height: 8%;
+  width: 80%;
+  background-color: coral;
+
+}
+
+.move-arrow {
+  width: 100%;
+  height: 15%;
+  background-color: antiquewhite;
 }
 
 
