@@ -28,7 +28,7 @@ const ProjectItem = (props) => {
                 <motion.div className="project-item" onMouseEnter={HandleOnHover} whileHover={{ opacity: 0 }} exit={{ opacity: 0 }}>
 
                     <div className="project-item-image">
-                        <img src={chameleonIcon} alt="" />
+                        <img src={props.image} alt="" />
                     </div>
                 </motion.div>
             </AnimatePresence>
