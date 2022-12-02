@@ -17,7 +17,7 @@ const animateInOutRight = {
 }
 
 const TestimonialItem = (props) => {
-    let animateState = (props.animationDirection == "left" ? animateInOutRight : animateInOutLeft)
+    let animateState = (props.animationDirection === "left" ? animateInOutRight : animateInOutLeft)
     console.log(props.animationDirection)
     return <motion.div className="testimonials-carousel-person-container"
         {...animateState}

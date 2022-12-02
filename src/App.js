@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Contact from './components/Contact';
-import Footer from './components/Footer';
+// import Footer from './components/Footer';
 import Intro from './components/Intro';
 import Knowledge from './components/Knowledge';
 import Projects from './components/Projects';
@@ -19,7 +19,6 @@ function App() {
       <Projects/>
       <Testimonials/>
       <Contact/>
-      <Footer/>
     </div>
   );
 }
