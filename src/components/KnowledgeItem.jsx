@@ -43,7 +43,7 @@ const KnowledgeItem = (props) =>
                         <div className="knowledge-see-more-github-button-icon">
                             <img src={require(`../static/images/githublogo3.png`)} alt="githublogo" />
                         </div>
-                        <a className="knowledge-see-more-github-button-text" href={props.github} target={"_blank"}>
+                        <a className="knowledge-see-more-github-button-text" href={props.github} target={"_blank"} rel="noreferrer">
                             <p>Github Link</p>
                         </a>          
                 </div>

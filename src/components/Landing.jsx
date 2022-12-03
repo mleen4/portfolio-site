@@ -24,17 +24,17 @@ function Landing() {
                     
                 </div>
                 <div className="landing-socials">
-                        <a href="https://github.com/mleen4" target={"_blank"}>
+                        <a href="https://github.com/mleen4" target={"_blank"} rel="noreferrer">
                             <div className="landing-social-icon">
                                 <img className="landing-social-icon-image" src={githubIcon} alt="" />
                             </div>
                         </a>
-                        <a href="">
+                        <a href="https://www.linkedin.com/in/michael-leen-33a03a182/" target={"_blank"} rel="noreferrer">
                             <div className="landing-social-icon">
                                 <img className="landing-social-icon-image" src={linkedInIcon} alt="" />
                             </div>
                         </a>
-                        <a href="">
+                        <a href="mailto:michael.leenj@gmail.com" target={"_blank"} rel="noreferrer">
                             <div className="landing-social-icon">
                                 <img className="landing-social-icon-image" src={emailIcon} alt="" />
                             </div>

@@ -24,8 +24,8 @@ function Contact() {
                         <p>Michael.Leenj1999@gmail.com</p>
                     </div> */}
                 
-                    <a href="https://www.linkedin.com/in/michael-leen-33a03a182/" target={"_blank"}><button className="contact-socials-button">LinkedIn</button></a>
-                    <a href="https://github.com/mleen4" target={"_blank"}><button className="contact-socials-button" >Github</button></a>
+                    <a href="https://www.linkedin.com/in/michael-leen-33a03a182/" target={"_blank"} rel="noreferrer"><button className="contact-socials-button">LinkedIn</button></a>
+                    <a href="https://github.com/mleen4" target={"_blank"} rel="noreferrer"><button className="contact-socials-button" >Github</button></a>
                     
                     <p>Michael.Leenj1999@gmail.com</p>
                     
