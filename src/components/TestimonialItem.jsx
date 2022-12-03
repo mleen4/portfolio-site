@@ -1,5 +1,7 @@
 import { React } from "react";
 import { motion } from "framer-motion";
+import linkedInIcon from "../static/images/linkedInIcon.png"
+
 
 
 const animateInOutLeft = {
@@ -23,7 +25,7 @@ const TestimonialItem = (props) => {
         {...animateState}
     >
         <div className="testimonial-person-image">
-
+            <img className="testimonial-person-icon" src={require(`../static/images/${props.icon}`)} alt="" />
         </div>
         <div className="testimonial-person-name">
             <h3>{props.name}</h3>
@@ -36,8 +38,12 @@ const TestimonialItem = (props) => {
         </div>
         <div className="testimonial-person-socials">
             <div className="testimonial-person-socials-linkedIn">
-                {/* little Icon here */}
-            </div>
+                    <a href={props.href}>
+                        <div className="landing-social-icon testimonial-icon">
+                            <img className="landing-social-icon-image" src={linkedInIcon} alt="" />
+                        </div>
+                    </a>
+                </div>
             <div className="testimonial-person-socials-email"></div>
         </div>
 

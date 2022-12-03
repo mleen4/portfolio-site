@@ -19,10 +19,15 @@ function Projects() {
                 <div className="project-row">
                     <ProjectItem
                         image = {chameleonIcon}
-                        text = {projectObjects.text}
-                        href = {projectObjects.href}
+                        text = {projectObjects[0].text}
+                        href = {projectObjects[0].href}
                     />
-                    <ProjectItem/>
+                    <ProjectItem
+                        image = "null"
+                        text = {projectObjects[1].text}
+                        emptyProjectTitle = {projectObjects[1].projectEmptyTitle}
+                        href = {projectObjects[1].href}
+                    />
                 </div>
                 
             </div>

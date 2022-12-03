@@ -1,5 +1,5 @@
 import { React, useState } from "react";
-import { motion, AnimatePresence, animate } from "framer-motion";
+import {AnimatePresence} from "framer-motion";
 import TestimonialItem from "./TestimonialItem";
 import testimonialObjects from "../testimonialObjects";
 
@@ -11,10 +11,10 @@ function Testimonials() {
     const handleCarousel = (direction) => {
         if (direction === 'prev') {
             handleAnimateDirection("left")
-            return (testimonial != 0 ? (handleTestimonialChange(testimonial - 1)) : (handleTestimonialChange(length - 1)))
+            return (testimonial !== 0 ? (handleTestimonialChange(testimonial - 1)) : (handleTestimonialChange(length - 1)))
         } else {
             handleAnimateDirection("right")
-            return (testimonial == (length - 1) ? (handleTestimonialChange(0)) : (handleTestimonialChange(testimonial + 1)))
+            return (testimonial === (length - 1) ? (handleTestimonialChange(0)) : (handleTestimonialChange(testimonial + 1)))
         }
     }
 

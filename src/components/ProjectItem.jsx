@@ -17,45 +17,55 @@ const ProjectItem = (props) => {
         setIsHover(true)
     }
 
-    const HandleHoverLeave = () => {
-
-    }
 
 
     return <div className="project-squircle">
-        {!isHover &&
-            <AnimatePresence>
-                <motion.div className="project-item" onMouseEnter={HandleOnHover} whileHover={{ opacity: 0 }} exit={{ opacity: 0 }}>
 
-                    <div className="project-item-image">
-                        <img src={props.image} alt="" />
+
+            {!isHover &&
+                <AnimatePresence>
+                    <motion.div className="project-item" onMouseEnter={HandleOnHover} whileHover={{ opacity: 0 }} exit={{ opacity: 0 }}>
+
+                    {props.image !== "null"
+                        ? <div className="project-item-image"><img src={props.image} alt="projectImage" /></div>
+                        : <div className="project-item-empty"><h3>{props.emptyProjectTitle}</h3></div>
+                    }
+
+                    
+
+
+                        {/* <div className="project-item-image">
+                            {props.image !== "null" ? <img src={props.image} alt="projectImage" /> : <h3>This Could be you!</h3>}
+                        </div> */}
+                        {/* <div className="project-item-image">
+                           <img src={props.image} alt="projectImage" />
+                        </div> */}
+                    </motion.div>
+                </AnimatePresence>
+            }
+            {isHover &&
+                <div className="project-item" onMouseLeave={HandleOnHover}>
+                    <div className="project-item-placeholder">
+                        {/* <motion.div className="project-item-image" whileHover={{ opacity: 0 }}>
+                        <img src={chameleonIcon} alt="" />
+                    </motion.div> */}
+                        <motion.div className="project-item-text"
+                            onMouseEnter={HandleHoverTextButton}
+                            initial={{ y: "50%", opacity: 0, scale: 0.5 }}
+                            animate={{ y: 0, opacity: 1, scale: 1 }}
+                        >
+                            <p>{props.text}</p>
+                        </motion.div>
+                        <motion.div className="project-item-button"
+                            onMouseEnter={HandleHoverTextButton}
+                            initial={{ y: "50%", opacity: 0, scale: 0.5 }}
+                            animate={{ y: 0, opacity: 1, scale: 1 }}
+                        >
+                            <a href={props.href} target={"_blank"}><button>See more!</button></a>
+                        </motion.div>
                     </div>
-                </motion.div>
-            </AnimatePresence>
-        }
-        {isHover &&
-            <div className="project-item" onMouseLeave={HandleOnHover}>
-                <div className="project-item-placeholder">
-                    {/* <motion.div className="project-item-image" whileHover={{ opacity: 0 }}>
-                    <img src={chameleonIcon} alt="" />
-                </motion.div> */}
-                    <motion.div className="project-item-text"
-                        onMouseEnter={HandleHoverTextButton}
-                        initial={{ y: "50%", opacity: 0, scale: 0.5 }}
-                        animate={{ y: 0, opacity: 1, scale: 1 }}
-                    >
-                        <p>This is some sample text about the project This is some sample text about the project This is some sample text about the project</p>
-                    </motion.div>
-                    <motion.div className="project-item-button"
-                        onMouseEnter={HandleHoverTextButton}
-                        initial={{ y: "50%", opacity: 0, scale: 0.5 }}
-                        animate={{ y: 0, opacity: 1, scale: 1 }}
-                    >
-                        <button>See more!</button>
-                    </motion.div>
                 </div>
-            </div>
-        }
+            }
     </div>
 }
 
