@@ -1,6 +1,6 @@
 var projectObjects = [
     {
-        text: "This is some sample text that belongs in the project box, it will have information about what I did in that project",
+        text: "During the Chameleon Project on behalf of Deakin University, I and my team worked alongside the Melbourne City Council to create Use-cases using their very large Open Data Platform that is supplied from the ever increasing amount of censors around the Inner & outer city. My Role was as a team lead of the Web Development Team for the Melbourne Open Data Project.",
         href: "https://mop-code-webapp-e5xbpzcnea-ts.a.run.app/",
 
     },
