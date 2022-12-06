@@ -165,6 +165,132 @@ button:active {
   border-radius: 10px;
 }
 
+@media only screen and (max-width: 1600px) {
+  body {
+    font-size: 60px;
+    
+  }
+
+  .landing-info {
+    font-size: 30px;
+    /* margin: 30px 200px 0 0; */
+    
+  }
+
+}
+
+
+@media only screen and (max-width: 1340px) {
+  body {
+    font-size: 50px;
+    
+  }
+
+  .landing-info {
+    font-size: 25px;
+    /* margin: 30px 200px 0 0; */
+    
+  }
+
+}
+
+@media only screen and (max-width: 1200px) {
+  body {
+    font-size: 40px;
+    
+  }
+
+  .landing-info {
+    font-size: 20px;
+    /* margin: 30px 200px 0 0; */
+    
+  }
+
+  .landing-splash {
+    width: 700px;
+    height: 500px;
+    border-radius: 20%
+    /* background-color: #23c483; */
+  }
+
+  .landing-social-icon {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .landing-social-icon img{
+    max-width: 50px;
+  
+  }
+
+  .landing-splash img {
+    object-fit: fill;
+    border-radius: 10px;
+    max-width: 600px;
+  }
+
+
+}
+
+
+@media only screen and (max-width: 1000px) {
+  
+  body {
+    font-size: 40px;
+    
+  }
+  .landing-info {
+    font-size: 17px;
+    /* margin: 30px 200px 0 0; */
+    
+  }
+  .landing-splash {
+    width: 600px;
+    height: 400px;
+    border-radius: 20%
+    /* background-color: #23c483; */
+  }
+  .landing-splash img {
+    object-fit: fill;
+    border-radius: 10px;
+    max-width: 500px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  
+
+  .landing-container {
+    display:flex;
+  }
+
+   /* .landing-container-right {
+    height: 0px;
+  } */
+  body {
+    font-size: 40px;
+    
+  }
+  .landing-info {
+    font-size: 17px;
+   
+    
+  }
+  .landing-splash {
+    width: 600px;
+    height: 400px;
+    border-radius: 20%
+   
+  }
+  .landing-splash img {
+    object-fit: fill;
+    border-radius: 10px;
+    max-width: 500px;
+  }
+}
+
+
+
 /* Intro */
 
 .intro-container {
@@ -233,6 +359,69 @@ button:active {
   
   text-align: center;
 }
+
+@media only screen and (max-width: 1200px) {
+  .intro-container h3 {
+    font-size: 45px;
+  } 
+  
+  .intro-details {
+    font-size: 22px;
+    padding:20px;
+    margin: 50px 0 0 40px;
+  }
+
+  .intro-lists {
+    height: 78%;
+    width: 90%;
+
+    font-size: 25px;
+    margin-top: 50px;
+  }
+
+}
+
+@media only screen and (max-width: 900px) {
+  .intro-container h3 {
+    font-size: 40px;
+  } 
+  
+  .intro-details {
+    font-size: 18px;
+    padding:20px;
+    margin: 50px 0 0 40px;
+  }
+
+  .intro-lists {
+    height: 78%;
+    width: 90%;
+    font-size: 20px;
+    margin-top: 50px;
+  }
+
+}
+
+@media only screen and (max-width: 700px) {
+  .intro-container h3 {
+    font-size: 36px;
+  } 
+  
+  .intro-details {
+    font-size: 16px;
+    padding:20px;
+    margin: 50px 0 0 40px;
+  }
+
+  .intro-lists {
+    height: 78%;
+    width: 90%;
+    font-size: 18px;
+    margin-top: 50px;
+  }
+
+}
+
+
 
 /* Knowledge */
 
@@ -356,6 +545,94 @@ button:active {
   color: #1d1d20;
   font-weight: 600;
 }
+
+@media only screen and (max-width: 1800px)
+{
+  .knowledge-table {
+    width: 80%;
+    height: 90%;
+  }
+}
+
+
+@media only screen and (max-width: 1680px) {
+  
+
+  .knowledge-column p, h3{
+    margin-top: 10px;
+  }
+  
+  .knowledge-column p {
+    font-size: 15px;
+  }
+
+  .knowledge-see-more-github-button-text p {
+    font-size: 20px;
+    margin:0;
+  }
+
+}
+
+@media only screen and (max-width: 1530px) {
+  .knowledge-see-more-github-button-text p {
+    font-size: 18px;
+  }
+}
+
+
+@media only screen and (max-width: 1480px) {
+  
+  .knowledge-icon {
+    width: 80px;
+    height: 80px;
+  }
+
+  .knowledge-column p, h3{
+    margin-top: 5px;
+  }
+  
+  .knowledge-column p {
+    font-size: 16px;
+  }
+
+  .knowledge-see-more-github-button-text p {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 1480px){
+  .knowledge-table {
+    width: 90%;
+    height: 90%;
+  }
+}
+
+@media only screen and (max-width: 1130px) {
+  .knowledge-column h4{
+    color: #23c483;
+    font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .knowledge-column h4{
+    color: #23c483;
+    font-size: 20px;
+  }
+
+  .knowledge-column h3{
+    font-size: 35px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+ 
+  /* Change whole layout of the table */
+}
+
+
+
+
 
 /* Projects */
 

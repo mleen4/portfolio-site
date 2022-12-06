@@ -1,5 +1,5 @@
 import React from "react";
-import landingImage from "../static/images/landingImage12.png"
+import landingImage from "../static/images/landingImage13.png"
 import githubIcon from "../static/images/githublogo3.png"
 import linkedInIcon from "../static/images/linkedInIcon.png"
 import emailIcon from "../static/images/emailIcon.png"
