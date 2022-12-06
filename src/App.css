@@ -638,39 +638,43 @@ button:active {
 
 .projects-container {
   display: flex;
-  height: 900px;
+  flex-wrap: wrap;
+  height: 600px;
   align-items: center;
+  justify-content: center;
+  margin: 200px 0 150px 0;
 }
 
 .projects-container h1 {
- margin-left: 80px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .projects-list {
   width: 100%;
-  height: 100%;
+  height: 60%;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
 .project-row {
-  width: 100%;
-  height: 60%;
+  width: 65%;
+  height: 100%;
   display: flex;
-  align-items: center;
-  justify-content: space-around;
+  /* align-items: center;
+  justify-content: space-around; */
 }
 
 .project-squircle {
-  width: 100%;
+  width: 50%;
   height: 50%;
-  padding: 50px;
+  margin: 50px;
+  /* padding: 30px; */
 }
 
 .project-item {
-  
   background: #0F0E0D;
   border-radius: 14px;
   border-color: #23c483;
@@ -725,9 +729,73 @@ button:active {
   font-size: 16px;
   top: 20%;
   margin-left: 15px;
-  /* padding: 5px; */
+  padding: 5px;
   text-align: center;
 }
+
+@media only screen and (max-width: 1680px)
+{
+  .project-item-text p {
+    font-size: 14px;
+
+  }
+
+}
+
+
+@media only screen and (max-width: 1500px) {
+
+  
+  
+  .project-item-empty h3 {
+    font-size: 50px;
+  }
+
+  .project-row {
+    width: 75%;
+  }
+}
+
+
+@media only screen and (max-width: 1330px) {
+ 
+  .project-item-text p {
+    font-size: 12px;
+
+  }
+
+  .project-item-empty h3 {
+    font-size: 40px;
+  }
+
+  .project-squircle {
+    margin: 25px;
+  }
+
+  .project-row {
+    width: 85%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .project-item-empty h3 {
+    font-size: 35px;
+  }
+
+  .project-squircle {
+    margin: 15px;
+  }
+
+  .project-row {
+    width: 95%;
+  }
+}
+
+
+
+
+
+
 
 /* Testimonials */
 .testimonials-container {
@@ -940,18 +1008,3 @@ button:active {
   height: 100%;
   font-size: 70%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
