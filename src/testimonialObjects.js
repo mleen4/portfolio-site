@@ -3,7 +3,7 @@ var testimonialObjects = [
         key: 0,
         name: "John Citizen",
         role: "Senior Software Engineer - Somewhere",
-        quote: "Great person to work with, has great banter, and I consider him a great friend.",
+        quote: "Great person to work with, honest and hardworking and I consider him a great asset to any organisation!",
         icon: 'man1.jpg',
         email: "",
         linkedIn: true,
