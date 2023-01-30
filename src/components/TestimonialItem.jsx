@@ -22,6 +22,7 @@ const TestimonialItem = (props) => {
     let animateState = (props.animationDirection === "left" ? animateInOutRight : animateInOutLeft)
     
     console.log(props.quoteFontSize)
+    console.log(props.LinkedInhref)
     return <motion.div className="testimonials-carousel-person-container"
         {...animateState}
     >
@@ -39,11 +40,9 @@ const TestimonialItem = (props) => {
         </div>
         {/* <div className="testimonial-person-socials"> */}
                 <div className="testimonial-person-socials-linkedIn">
-                    {/* <a > */}
-                        <a href="" className="landing-social-icon testimonial-icon">
-                            <img className="landing-social-icon-image" src={linkedInIcon} alt="" />
-                        </a>
-                    {/* </a> */}
+                    <a href={props.LinkedInhref} target={"_blank"} rel="noreferrer" className="landing-social-icon testimonial-icon">
+                        <img className="landing-social-icon-image" src={linkedInIcon} alt="" />
+                    </a>
                 </div>
             <div className="testimonial-person-socials-email"></div>
         {/* </div> */}

@@ -35,7 +35,7 @@ function Testimonials() {
                             role={testimonialObjects[testimonial].role}
                             quote={testimonialObjects[testimonial].quote}
                             icon={testimonialObjects[testimonial].icon}
-                            LinkedInhref={testimonialObjects[testimonial.linkedInLink]}
+                            LinkedInhref={testimonialObjects[testimonial].linkedInLink}
                             email={testimonialObjects[testimonial].email}
                             animationDirection={animateDirection}
                             quoteFontSize={testimonialObjects[testimonial].fontSize}
