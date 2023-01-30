@@ -39,9 +39,7 @@ function Landing() {
                                 <img className="landing-social-icon-image" src={emailIcon} alt="" />
                             </div>
                         </a>
-
-                </div>
-               
+                </div> 
             </div>
         </div>
     )

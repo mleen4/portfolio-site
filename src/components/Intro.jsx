@@ -10,10 +10,10 @@ function Intro() {
                 </div>
                 
                 <div className="intro-details">
-                    <p>I’m about to graduate a Bachelor of Information Technology Degree at Deakin university! I am really passionate about what I have learned at university and I’d love to put those skills and knowledge to work!</p>
+                    <p>I’m about to graduate a Bachelor of Information Technology Degree at Deakin University! I am really passionate about what I have learned at university and I’d love to put those skills and knowledge to work!</p>
                 </div>
                  <div className="intro-details">
-                    this is some more text that talks about me and what I did in university, what I am aspiring to do with my career and just some junkya know!
+                    During my degree at Deakin, I succesfully completed 2 Major sequences: Cloud Computing & Application Development. During my university education I also fell in love with programming and the creativity that it provides!
                  </div>
                 
             </div>
