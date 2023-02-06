@@ -14,12 +14,12 @@ var testimonialObjects = [
         key: 1,
         name: "Justin Rough",
         role: "Lecturer - Deakin Universtity",
-        quote: "",
+        quote: "I worked with Michael while he completed studies both instructing him in the field of networking, and separately providing guidance and support as he completed his capstone project working on deploying software using cloud computing technologies and the Google Cloud Platform.  Throughout this time I always found Michael to be highly engaged and attentive, successfully learning to complete work assignments using technologies he had not previously been trained in an efficient and effective manner.  Overall in my interactions Michael has demonstrated significant potential as a capable and adaptable practitioner in the fields of networking and cloud computing.",
         icon: 'justin2.jpg',
         email: "",
         linkedIn: true,
         linkedInLink: "https://au.linkedin.com/in/jrough",
-        fontSize: 0,
+        fontSize: 22,
     },
 
   
