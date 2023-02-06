@@ -24,7 +24,7 @@ var knowledgeObjects = [
     {
         "key": 2,
         "title": "Backend",
-        "description": "Similarly to Frontend, Backend development encourages me to be creative and most importantly, ignite my problem solving skills, and I love the challenge!",
+        "description": "Similarly to Frontend, Backend development encourages me to be creative and most importantly, kickstart my problem solving skills, and I love the challenge!",
         "heading": 'Frameworks I have used:',
         "tools": "C#/.NET, Javascript/Node.js, Python/Flask, Java (Android)",
         "example": "In my final trimester of my degree, I enrolled in a backend unit which I was to create a fully feldged mock backend where we would implement a Persistence layer, Dependancy Injection and both Minimal and Full API requirements using .NET's Entity Framework.",
